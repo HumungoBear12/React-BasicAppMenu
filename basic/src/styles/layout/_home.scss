@@ -1,0 +1,60 @@
+.Container {
+    .Header{
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:5rem;
+        h1{
+            font-size:4rem;
+            color: white;
+        }
+        sub{
+            font-size:1.5rem;
+        }
+        h5{
+            color: white;
+            font-size: 1.1rem;
+        }
+    }
+    .box-container{
+        h2{
+            position: relative;
+            top: 2rem;
+            margin-left: auto;
+            margin-right:auto;
+            width:80%;
+            padding:10px;color: white;
+        }
+        .box{
+            margin-top:2rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content:space-between;
+        }
+    }
+    .food-container{
+        h2{
+            position: relative;
+            top: 2rem;
+            margin-left: auto;
+            margin-right:auto;
+            width:80%;
+            padding:10px;
+            color: white;
+        }
+        .food{
+            margin-top:2rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content:space-between;
+        }
+    }
+}

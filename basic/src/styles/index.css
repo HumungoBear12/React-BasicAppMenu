@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section,
+details,
+summary {
+  display: block;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  overflow-y: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #222;
+  cursor: help;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: normal;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+input [type="radio"] {
+  vertical-align: text-bottom;
+}
+
+input [type="checkbox"] {
+  vertical-align: bottom;
+}
+
+.ie7 input [type="checkbox"] {
+  vertical-align: baseline;
+}
+
+.ie6 input[type="checkbox"] {
+  vertical-align: text-bottom;
+}
+
+select,
+input,
+textarea {
+  font-size: 99%;
+}
+
+small {
+  font-size: 99%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.05em;
+}
+
+sub {
+  bottom: -0.025em;
+}
+
+.clickable,
+label,
+input[type="button"],
+input[type="submit"],
+input[type="file"],
+button {
+  cursor: pointer;
+}
+
+button,
+input[type="button"] {
+  width: auto;
+  overflow: hidden;
+}
+
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* dark shades of primary color*/
+/* The primary/main color */
+/* lighter shades of primary color */
+/* dark shades of secondary color*/
+/* secondary color */
+/* lighter shades of secondary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+/* lightest grey - used for outlines */
+/* Other Colors used */
+body {
+  background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* dark shades of primary color*/
+/* The primary/main color */
+/* lighter shades of primary color */
+/* dark shades of secondary color*/
+/* secondary color */
+/* lighter shades of secondary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+/* lightest grey - used for outlines */
+/* Other Colors used */
+.Container .Header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+.Container .Header h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.Container .Header sub {
+  font-size: 1.5rem;
+}
+
+.Container .Header h5 {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.Container .box-container h2 {
+  position: relative;
+  top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+  color: white;
+}
+
+.Container .box-container .box {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Container .food-container h2 {
+  position: relative;
+  top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+  color: white;
+}
+
+.Container .food-container .food {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.weather-box {
+  width: 10rem;
+  background-color: transparent blurry;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+}
+
+.weather-box img {
+  padding: 10px;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: 6rem;
+  width: 70%;
+  margin-top: .5rem;
+  border-radius: .75rem;
+}
+
+.weather-box h3 {
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.weather-box h6 {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.food-box1 {
+  background-image: url("https://www.seriouseats.com/thmb/WzQz05gt5witRGeOYKTcTqfe1gs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/butter-basted-pan-seared-steaks-recipe-hero-06-03b1131c58524be2bd6c9851a2fbdbc3.jpg");
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(1px);
+  height: 20rem;
+  width: 24rem;
+}
+
+.food-box2 {
+  background-image: url("https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(1px);
+  background-size: cover;
+  height: 20rem;
+  width: 24rem;
+}
+
+.food-box3 {
+  background-image: url("https://www.simplyrecipes.com/thmb/WXzv7XkTQvFEpYnyyk4x5HRMtVc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-SEO-Horizontal-1b86ef1e115444ba8b6fb216f2810c7c.jpg");
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(1px);
+  height: 20rem;
+  width: 24rem;
+}
+
+.food-box3 h2 {
+  text-align: left;
+  margin-top: 12rem;
+  font-size: 2rem;
+}
+
+.food-box3 p {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.food-box1:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.food-box2:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.food-box3:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+/*# sourceMappingURL=index.css.map */

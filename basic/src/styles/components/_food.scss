@@ -1,0 +1,45 @@
+.food-box1{
+    background-image: url("https://www.seriouseats.com/thmb/WzQz05gt5witRGeOYKTcTqfe1gs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/butter-basted-pan-seared-steaks-recipe-hero-06-03b1131c58524be2bd6c9851a2fbdbc3.jpg");
+    background-size: cover;
+    filter: blur(8px);
+  -webkit-filter: blur(1px);
+    height: 20rem;
+    width:24rem;
+}
+.food-box2{
+    background-image: url("https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg");
+    filter: blur(8px);
+  -webkit-filter: blur(1px);
+    background-size: cover;
+    height: 20rem;
+    width:24rem;
+}
+.food-box3{
+    background-image: url("https://www.simplyrecipes.com/thmb/WXzv7XkTQvFEpYnyyk4x5HRMtVc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-SEO-Horizontal-1b86ef1e115444ba8b6fb216f2810c7c.jpg");
+    background-size: cover;
+    filter: blur(8px);
+  -webkit-filter: blur(1px);
+    height: 20rem;
+    width:24rem;
+    h2{
+        text-align:left;
+        margin-top:12rem;
+        font-size: 2rem;
+    }
+    p{
+        margin-top: 2rem;
+        text-align:left;
+    }
+}
+.food-box1:hover{
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.food-box2:hover{
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.food-box3:hover{
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
