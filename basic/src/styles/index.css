@@ -312,6 +312,24 @@ body {
   width: 24rem;
 }
 
+.food-box1 section {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.food-box1 section h2 {
+  font-size: 2rem;
+  visibility: hidden;
+}
+
+.food-box1 section p {
+  margin-top: 1.5rem;
+  color: white;
+  visibility: hidden;
+  font-weight: bolder;
+}
+
 .food-box2 {
   background-image: url("https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-Chicken-Parmesan-Pasta-feat.jpg");
   filter: blur(8px);
@@ -321,24 +339,49 @@ body {
   width: 24rem;
 }
 
+.food-box2 section {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.food-box2 section h2 {
+  font-size: 2rem;
+  visibility: hidden;
+}
+
+.food-box2 section p {
+  margin-top: 1.5rem;
+  color: white;
+  visibility: hidden;
+  font-weight: bolder;
+}
+
 .food-box3 {
   background-image: url("https://www.simplyrecipes.com/thmb/WXzv7XkTQvFEpYnyyk4x5HRMtVc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-Chicken-LEAD-SEO-Horizontal-1b86ef1e115444ba8b6fb216f2810c7c.jpg");
   background-size: cover;
-  filter: blur(8px);
+  filter: blur(6px);
   -webkit-filter: blur(1px);
   height: 20rem;
   width: 24rem;
 }
 
-.food-box3 h2 {
-  text-align: left;
-  margin-top: 12rem;
-  font-size: 2rem;
+.food-box3 section {
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.food-box3 p {
-  margin-top: 2rem;
-  text-align: left;
+.food-box3 section h2 {
+  font-size: 2rem;
+  visibility: hidden;
+}
+
+.food-box3 section p {
+  margin-top: 1.5rem;
+  color: white;
+  visibility: hidden;
+  font-weight: bolder;
 }
 
 .food-box1:hover {
@@ -346,13 +389,79 @@ body {
   -webkit-filter: blur(0px);
 }
 
+.food-box1:hover section {
+  text-align: center;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.food-box1:hover section h2 {
+  font-size: 3rem;
+  visibility: visible;
+}
+
+.food-box1:hover section p {
+  margin-top: 15rem;
+  color: white;
+  font-weight: bolder;
+  visibility: visible;
+  font-size: 1.7rem;
+  background-color: black;
+  opacity: .7;
+}
+
 .food-box2:hover {
   filter: blur(0px);
   -webkit-filter: blur(0px);
 }
 
+.food-box2:hover section {
+  text-align: center;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.food-box2:hover section h2 {
+  font-size: 3rem;
+  visibility: visible;
+}
+
+.food-box2:hover section p {
+  margin-top: 15rem;
+  color: white;
+  font-weight: bolder;
+  visibility: visible;
+  font-size: 1.7rem;
+  background-color: black;
+  opacity: .7;
+}
+
 .food-box3:hover {
   filter: blur(0px);
   -webkit-filter: blur(0px);
+}
+
+.food-box3:hover section {
+  text-align: center;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.food-box3:hover section h2 {
+  font-size: 3rem;
+  visibility: visible;
+}
+
+.food-box3:hover section p {
+  margin-top: 15rem;
+  color: white;
+  font-weight: bolder;
+  visibility: visible;
+  font-size: 1.7rem;
+  background-color: black;
+  opacity: .7;
 }
 /*# sourceMappingURL=index.css.map */

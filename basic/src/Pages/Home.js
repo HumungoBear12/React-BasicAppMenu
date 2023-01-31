@@ -25,16 +25,22 @@ const Home = () => {
             <h2>Time to Order Some Food?</h2>
             <div className='food'>
                 <div className="food-box1">
-                    <h2>Steak</h2>
-                    <p>Juicest Steak in the Valley</p>
+                    <section>
+                    <h2></h2>
+                    <p>The Juicest Steak in the AZ Valley</p>
+                    </section>
                 </div>
                 <div className="food-box2">
-                    <h2>Pasta</h2>
-                    <p>Pasta thats straight from Italy</p>
+                    <section>
+                    <h2></h2>
+                    <p>Pasta Thats Tastes Straight From Italy</p>
+                    </section>
                 </div>
                 <div className="food-box3">
-                    <h2>Chicken</h2>
-                    <p>Gods Favorite Food was Chicken</p>
+                    <section>
+                        <h2></h2>
+                        <p>Gods Favorite Food was Chicken</p>
+                    </section>
                 </div>
             </div>
         </div>
